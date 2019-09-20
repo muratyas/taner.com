@@ -1,0 +1,14 @@
+body {
+  background: #740f0f;
+}
+
+body img {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+body img:hover {
+  border-radius: 0;
+  border-right: 5px solid #000;
+}
+/*# sourceMappingURL=test.css.map */

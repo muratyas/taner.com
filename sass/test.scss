@@ -1,0 +1,18 @@
+$radius : 0;
+$color1 : #740f0f;
+
+body {
+    background: $color1;
+
+    img{
+        border-radius: 50%;
+        overflow: hidden;
+
+        &:hover{
+            border-radius: $radius;
+            border-right:5px solid #000;
+        }
+
+    }
+
+}
